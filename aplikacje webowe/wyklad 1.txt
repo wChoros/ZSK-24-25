@@ -1,0 +1,13 @@
+NPM
+husky
+preetier
+pakiet to aplikacja node ktora posiada package.json
+
+version major, minor patch
+
+
+
+npx <pakiet> <komenda pakietu> - wywoływanie komendy z pakietu bez instalowania go
+
+
+moduł http

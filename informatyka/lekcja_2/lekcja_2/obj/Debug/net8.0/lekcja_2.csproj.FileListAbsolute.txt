@@ -1,0 +1,15 @@
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/bin/Debug/net8.0/lekcja_2
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/bin/Debug/net8.0/lekcja_2.deps.json
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/bin/Debug/net8.0/lekcja_2.runtimeconfig.json
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/bin/Debug/net8.0/lekcja_2.dll
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/bin/Debug/net8.0/lekcja_2.pdb
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/obj/Debug/net8.0/lekcja_2.GeneratedMSBuildEditorConfig.editorconfig
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/obj/Debug/net8.0/lekcja_2.AssemblyInfoInputs.cache
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/obj/Debug/net8.0/lekcja_2.AssemblyInfo.cs
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/obj/Debug/net8.0/lekcja_2.csproj.CoreCompileInputs.cache
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/obj/Debug/net8.0/lekcja_2.sourcelink.json
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/obj/Debug/net8.0/lekcja_2.dll
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/obj/Debug/net8.0/refint/lekcja_2.dll
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/obj/Debug/net8.0/lekcja_2.pdb
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/obj/Debug/net8.0/lekcja_2.genruntimeconfig.cache
+/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_2/lekcja_2/obj/Debug/net8.0/ref/lekcja_2.dll
