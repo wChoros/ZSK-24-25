@@ -23,6 +23,37 @@ class Sort {
         }
     }
 
+    static void MergeSort(vector<int> &array, vector<int> &temp, int left, int right) {
+        if (left >= right) {
+            return;
+        }
+        int mid = left + (right - left) / 2;
+        MergeSort(array, temp, left, mid);
+        MergeSort(array, temp, mid + 1, right);
+        Merge(array, temp, left, mid, right);
+    }
+
+    static void Merge(vector<int> &array, vector<int> &temp, int left, int mid, int right) {
+        int i = left, j = mid + 1, k = left;
+
+        while (i <= mid && j <= right) {
+            if (array[i] <= array[j]) {
+                temp[k++] = array[i++];
+            } else {
+                temp[k++] = array[j++];
+            }
+        }
+        while (i <= mid) {
+            temp[k++] = array[i++];
+        }
+        while (j <= right) {
+            temp[k++] = array[j++];
+        }
+        for (int idx = left; idx <= right; idx++) {
+            array[idx] = temp[idx];
+        }
+    }
+
 public:
     static void BubbleSort(list<int> &list) {
         for (auto it1 = list.begin(); it1 != list.end(); ++it1) {
@@ -105,6 +136,14 @@ public:
             array[j + 1] = key;
         }
     }
+
+    static void MergeSort(vector<int> &array) {
+        if (array.size() <= 1) {
+            return;
+        }
+        vector<int> temp(array.size());
+        MergeSort(array, temp, 0, array.size() - 1);
+    }
 };
 
 int main() {
@@ -170,14 +209,27 @@ int main() {
 
     // create a vector of random integers and sort it using Insertion Sort
     cout << "Insertion Sort on vector" << endl;
-    vector<int> vector;
+    vector<int> insertion_vector;
     for (int i = 0; i < 100; i++) {
-        vector.push_back(rand() % 100);
+        insertion_vector.push_back(rand() % 100);
     }
-    Sort::InsertionSort(vector);
+    Sort::InsertionSort(insertion_vector);
     for (int i = 0; i < 100; i++) {
-        cout << vector[i] << " ";
+        cout << insertion_vector[i] << " ";
     }
     cout << endl << endl;
+
+    // create a vector of random integers and sort it using Merge Sort
+    cout << "Merge Sort on vector" << endl;
+    vector<int> merge_vector;
+    for (int i = 0; i < 100; i++) {
+        merge_vector.push_back(rand() % 100);
+    }
+    Sort::MergeSort(merge_vector);
+    for (int i = 0; i < 100; i++) {
+        cout << merge_vector[i] << " ";
+    }
+    cout << endl << endl;
+
     return 0;
 }
