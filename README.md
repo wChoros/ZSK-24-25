@@ -9,3 +9,11 @@ School projects for 2024/2025 year
  - [wyklad](https://fraktal.faculty.wmi.amu.edu.pl/aplikacje_desktopowe/wyklad1.html)
  - [lab 1](https://fraktal.faculty.wmi.amu.edu.pl/aplikacje_desktopowe/lab1.html)
 
+
+deklaracja
+alokacja
+inicjalizacja
+priorytet operatorów
+
+
+res.setHeader('content-type', 'text/html')
