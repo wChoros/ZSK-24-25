@@ -50585,12 +50585,12 @@ int main() {
 
     cout << "Selection Sort on array" << endl;
     int array[100];
-    for (int i = 0; i < 100; i++) {
-        array[i] = rand() % 100;
+    for (int & i : array) {
+        i = rand() % 100;
     }
     Sort::SelectionSort(array, 100);
-    for (int i = 0; i < 100; i++) {
-        cout << array[i] << " ";
+    for (int i : array) {
+        cout << i << " ";
     }
     cout << endl << endl;
 
