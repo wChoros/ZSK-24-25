@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/10.02/cmake-build-debug",
+	"dir-cur-src" : "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/10.02",
+	"dir-top-bld" : "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/10.02/cmake-build-debug",
+	"dir-top-src" : "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/10.02",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/10.02/cmake-build-debug/CMakeFiles/10_02.dir"
+}

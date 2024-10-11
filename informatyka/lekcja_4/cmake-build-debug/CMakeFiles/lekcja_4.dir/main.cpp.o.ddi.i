@@ -50465,7 +50465,8 @@ public:
         }
     }
 
-    static void BubbleSort(int array[], int size) {
+    static void BubbleSort(int array[]) {
+        int size = sizeof(array) / sizeof(*array);
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size - i - 1; j++) {
                 if (array[j] > array[j + 1]) {
@@ -50502,7 +50503,8 @@ public:
         main_list.splice(main_list.end(), greater);
     }
 
-    static void SelectionSort(int array[], int size) {
+    static void SelectionSort(int array[]) {
+        int size = sizeof(array) / sizeof(*array);
         for (int i = 0; i < size; i++) {
             int minIndex = i;
             for (int j = i + 1; j < size; j++) {
@@ -50564,7 +50566,7 @@ int main() {
     for (int i = 0; i < 100; i++) {
         bubble_array[i] = rand() % 100;
     }
-    Sort::BubbleSort(bubble_array, 100);
+    Sort::BubbleSort(bubble_array);
     for (int i = 0; i < 100; i++) {
         cout << bubble_array[i] << " ";
     }
@@ -50588,7 +50590,7 @@ int main() {
     for (int & i : array) {
         i = rand() % 100;
     }
-    Sort::SelectionSort(array, 100);
+    Sort::SelectionSort(array);
     for (int i : array) {
         cout << i << " ";
     }
