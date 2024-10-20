@@ -153,9 +153,9 @@ private:
     }
 
     char obstacle = '*';
-    char start = 'S';
-    char end = 'E';
-    char path = '.';
+    string start = "\033[1;32mS\033[1;0m";
+    string end = "\033[1;31mE\033[1;0m";
+    string path = "\033[1;36m.\033[1;0m";
     char empty = ' ';
 
     Node *findNode(const int x, const int y) {
@@ -171,7 +171,7 @@ private:
 int main() {
     try {
         NodeField field("../field.txt"); // Adjusted file path
-        field.findPath(1, 1, 24, 4); // Example start and end positions
+        field.findPath(1, 0, 24, 4); // Example start and end positions
         field.print(); // Display the field with the path
     } catch (const exception &e) {
         cerr << "Error: " << e.what() << endl;
