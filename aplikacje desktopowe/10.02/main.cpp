@@ -60,6 +60,7 @@ int main() {
     appendElement(list, 2);
     appendElement(list, 3);
     pushElement(list, 0);
+    deleteLastElement(list);
     printList(list);
     return 0;
 }

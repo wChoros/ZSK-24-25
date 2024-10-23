@@ -1,10 +1,10 @@
-# 0 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/10.02/main.cpp"
-# 1 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/10.02/cmake-build-debug//"
+# 0 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/tablica_2d.cpp"
+# 1 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/10.02/main.cpp"
+# 1 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/tablica_2d.cpp"
 # 1 "/usr/include/c++/14/iostream" 1 3
 # 36 "/usr/include/c++/14/iostream" 3
        
@@ -43317,71 +43317,53 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 2 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/10.02/main.cpp" 2
+# 2 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/tablica_2d.cpp" 2
+# 1 "/usr/include/c++/14/cstdlib" 1 3
+# 39 "/usr/include/c++/14/cstdlib" 3
+       
+# 40 "/usr/include/c++/14/cstdlib" 3
+# 3 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/tablica_2d.cpp" 2
+# 1 "/usr/include/c++/14/ctime" 1 3
+# 39 "/usr/include/c++/14/ctime" 3
+       
+# 40 "/usr/include/c++/14/ctime" 3
+# 58 "/usr/include/c++/14/ctime" 3
+namespace std
+{
+  using ::clock_t;
+  using ::time_t;
+  using ::tm;
 
-
-# 3 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/10.02/main.cpp"
-struct Node {
-    int data;
-    Node *next;
-};
-
-
-Node *initList(int data) {
-    Node *newNode = new Node();
-    newNode->data = data;
-    newNode->next = nullptr;
-    return newNode;
+  using ::clock;
+  using ::difftime;
+  using ::mktime;
+  using ::time;
+  using ::asctime;
+  using ::ctime;
+  using ::gmtime;
+  using ::localtime;
+  using ::strftime;
 }
 
-void appendElement(Node *head, const int data) {
-    Node *newNode = new Node();
-    newNode->data = data;
-    newNode->next = nullptr;
-    Node *tmp = head;
-    while (tmp->next != nullptr) {
-        tmp = tmp->next;
-    }
-    tmp->next = newNode;
-}
 
-void pushElement(Node *&head, const int data) {
-    Node *newNode = new Node();
-    newNode->data = data;
-    newNode->next = head;
-    head = newNode;
-}
 
-void deleteLastElement(Node *&head) {
-    if (head->next == nullptr) {
-        delete head;
-        head = nullptr;
-        return;
-    }
-    Node *tmp = head;
-    while (tmp->next->next != nullptr) {
-        tmp = tmp->next;
-    }
+namespace std
+{
+  using ::timespec;
+  using ::timespec_get;
 }
+# 4 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/tablica_2d.cpp" 2
 
-void printList(const Node *head) {
-    const Node *tmp = head;
-    while (tmp != nullptr) {
-        std::cout << tmp->data;
-        if (tmp->next != nullptr)
-            std::cout << ", ";
-        tmp = tmp->next;
-    }
-    std::cout << std::endl;
-}
 
+
+
+
+
+
+
+# 11 "/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/tablica_2d.cpp"
 int main() {
-    int data = 1;
-    Node *list = initList(data);
-    appendElement(list, 2);
-    appendElement(list, 3);
-    pushElement(list, 0);
-    deleteLastElement(list);
-    printList(list);
+    std::cout << "Hello, World!" << std::endl;
+
     return 0;
 }
