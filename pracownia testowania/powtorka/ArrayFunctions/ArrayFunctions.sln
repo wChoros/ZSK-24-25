@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayFunctions", "ArrayFunctions\ArrayFunctions.csproj", "{52CCCC4A-1729-4C7A-BB95-221315725939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayFunctions.Test", "ArrayFunctions.Test\ArrayFunctions.Test.csproj", "{855A4663-D784-48B0-A124-BD2D0EFCAFC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52CCCC4A-1729-4C7A-BB95-221315725939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CCCC4A-1729-4C7A-BB95-221315725939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CCCC4A-1729-4C7A-BB95-221315725939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CCCC4A-1729-4C7A-BB95-221315725939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{855A4663-D784-48B0-A124-BD2D0EFCAFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855A4663-D784-48B0-A124-BD2D0EFCAFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855A4663-D784-48B0-A124-BD2D0EFCAFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855A4663-D784-48B0-A124-BD2D0EFCAFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

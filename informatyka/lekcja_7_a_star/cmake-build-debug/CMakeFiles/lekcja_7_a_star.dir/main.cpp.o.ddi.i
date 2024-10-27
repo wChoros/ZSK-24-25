@@ -58800,6 +58800,31 @@ public:
         file.close();
     }
 
+    NodeField(const int width, const int height) {
+
+        this->width = width;
+        this->height = height;
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
+                nodes.push_back(Node());
+                Node &node = nodes.back();
+                node.x = i;
+                node.y = j;
+            }
+        }
+    }
+
+    void addObstacles(float probability_percentage) {
+        for (Node &node: nodes) {
+            if (node.isStart || node.isEnd) {
+                continue;
+            }
+            if (rand() % 100 < probability_percentage) {
+                node.isObstacle = true;
+            }
+        }
+    }
+
     void print() {
 
         int previousX = -1;
@@ -58823,13 +58848,19 @@ public:
         cout << endl;
     }
 
-    void findPath(const int startX, const int startY, const int endX, const int endY) {
-        markPath(startX, startY, endX, endY);
+    bool findPath(const int startX, const int startY, const int endX, const int endY) {
+        try {
+            markPath(startX, startY, endX, endY);
+        } catch (runtime_error) {
+            return false;
+        }
+
         Node *currentNode = findNode(endX, endY);
         while (currentNode->parent != nullptr && !currentNode->isStart) {
             currentNode->isPath = true;
             currentNode = currentNode->parent;
         }
+        return true;
     }
 
 private:
@@ -58910,12 +58941,16 @@ private:
 };
 
 int main() {
-    try {
-        NodeField field("../field.txt");
-        field.findPath(1, 0, 24, 4);
+
+
+
+
+    NodeField field("../field.txt");
+    if (field.findPath(1, 0, 24, 4)) {
+
         field.print();
-    } catch (const exception &e) {
-        cerr << "Error: " << e.what() << endl;
+    } else {
+        cout << "No path found" << endl;
     }
     return 0;
 }

@@ -1,58 +1,11 @@
 # ninja log v6
 114	121	1729667866687085742	CMakeFiles/23_10_spr.dir/tablica_2d.cpp.o.modmap	4ec3f3f3f23a0bf4
-122	816	1729667866695085705	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o	19b82b3a4fd0b4c0
-114	121	1729667866687085742	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.modmap	4ec3f3f3f23a0bf4
-114	121	1729667866687085742	/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/23_10_spr.dir/CXXModules.json	4ec3f3f3f23a0bf4
-3	125	1729667845818180531	CMakeFiles/23_10_spr.dir/tablica_2d.cpp.o.ddi	4ab273cc63e26b7b
-114	121	1729667866687085742	CMakeFiles/23_10_spr.dir/CXX.dd	4ec3f3f3f23a0bf4
-138	828	1729667845953179918	CMakeFiles/23_10_spr.dir/tablica_2d.cpp.o	f747332b5b1b5aea
-767	855	1729667696201137373	23_10_spr	c9a3f5fc7bf66b29
-2	114	1729667866575086251	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.ddi	88a6203c9107fc66
-3	49	1729667904418953320	build.ninja	ad4b4e6a384ad73d
-1	35	1729667904418953320	build.ninja	ad4b4e6a384ad73d
-2	10	1729667904431953307	CMakeFiles/23_10_spr.dir/CXX.dd	e68d3334493a1ccb
-2	10	1729667904431953307	/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/23_10_spr.dir/CXXModules.json	e68d3334493a1ccb
-2	10	1729667904431953307	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.modmap	e68d3334493a1ccb
-10	111	1729667904439953299	23_10_spr	f900007e9a5ccd11
-2	120	1729667925989932276	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.ddi	88a6203c9107fc66
-120	126	1729667926107932160	CMakeFiles/23_10_spr.dir/CXX.dd	e68d3334493a1ccb
-120	126	1729667926107932160	/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/23_10_spr.dir/CXXModules.json	e68d3334493a1ccb
-120	126	1729667926107932160	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.modmap	e68d3334493a1ccb
-126	843	1729667926113932154	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o	19b82b3a4fd0b4c0
-843	928	1729667926830931455	23_10_spr	f900007e9a5ccd11
-2	116	1729667941625917021	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.ddi	88a6203c9107fc66
-116	123	1729667941739916910	CMakeFiles/23_10_spr.dir/CXX.dd	e68d3334493a1ccb
-116	123	1729667941739916910	/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/23_10_spr.dir/CXXModules.json	e68d3334493a1ccb
-116	123	1729667941739916910	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.modmap	e68d3334493a1ccb
-123	865	1729667941746916903	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o	19b82b3a4fd0b4c0
-866	948	1729667942489916178	23_10_spr	f900007e9a5ccd11
-2	118	1729667967999891290	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.ddi	88a6203c9107fc66
-118	124	1729667968115891177	CMakeFiles/23_10_spr.dir/CXX.dd	e68d3334493a1ccb
-118	124	1729667968115891177	/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/23_10_spr.dir/CXXModules.json	e68d3334493a1ccb
-118	124	1729667968115891177	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.modmap	e68d3334493a1ccb
-124	828	1729667968121891171	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o	19b82b3a4fd0b4c0
-828	912	1729667968825890485	23_10_spr	f900007e9a5ccd11
-2	129	1729668312846720858	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.ddi	88a6203c9107fc66
-129	136	1729668312973722072	CMakeFiles/23_10_spr.dir/CXX.dd	e68d3334493a1ccb
-129	136	1729668312973722072	/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/23_10_spr.dir/CXXModules.json	e68d3334493a1ccb
-129	136	1729668312973722072	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.modmap	e68d3334493a1ccb
-137	896	1729668312981722149	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o	19b82b3a4fd0b4c0
-896	998	1729668313740729403	23_10_spr	f900007e9a5ccd11
-2	122	1729668491093537762	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.ddi	88a6203c9107fc66
-122	129	1729668491213539076	CMakeFiles/23_10_spr.dir/CXX.dd	e68d3334493a1ccb
-122	129	1729668491213539076	/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/23_10_spr.dir/CXXModules.json	e68d3334493a1ccb
-122	129	1729668491213539076	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.modmap	e68d3334493a1ccb
-129	890	1729668491221539164	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o	19b82b3a4fd0b4c0
-890	974	1729668491981547490	23_10_spr	f900007e9a5ccd11
-3	119	1729668521346869158	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.ddi	88a6203c9107fc66
-119	125	1729668521462870429	CMakeFiles/23_10_spr.dir/CXX.dd	e68d3334493a1ccb
-119	125	1729668521462870429	/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/23_10_spr.dir/CXXModules.json	e68d3334493a1ccb
-119	125	1729668521462870429	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.modmap	e68d3334493a1ccb
-126	853	1729668521469870505	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o	19b82b3a4fd0b4c0
-853	938	1729668522196878469	23_10_spr	f900007e9a5ccd11
-2	119	1729668879237789684	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.ddi	88a6203c9107fc66
-119	126	1729668879354790966	CMakeFiles/23_10_spr.dir/CXX.dd	e68d3334493a1ccb
-119	126	1729668879354790966	/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/23_10_spr.dir/CXXModules.json	e68d3334493a1ccb
-119	126	1729668879354790966	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.modmap	e68d3334493a1ccb
 126	851	1729668879361791042	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o	19b82b3a4fd0b4c0
+119	126	1729668879354790966	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.modmap	e68d3334493a1ccb
+119	126	1729668879354790966	/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/23_10_spr.dir/CXXModules.json	e68d3334493a1ccb
+3	125	1729667845818180531	CMakeFiles/23_10_spr.dir/tablica_2d.cpp.o.ddi	4ab273cc63e26b7b
+119	126	1729668879354790966	CMakeFiles/23_10_spr.dir/CXX.dd	e68d3334493a1ccb
+138	828	1729667845953179918	CMakeFiles/23_10_spr.dir/tablica_2d.cpp.o	f747332b5b1b5aea
 851	940	1729668880086798985	23_10_spr	f900007e9a5ccd11
+2	119	1729668879237789684	CMakeFiles/23_10_spr.dir/4D_wojciech_choros_k1.cpp.o.ddi	88a6203c9107fc66
+1	35	1729842892219466568	build.ninja	ad4b4e6a384ad73d
