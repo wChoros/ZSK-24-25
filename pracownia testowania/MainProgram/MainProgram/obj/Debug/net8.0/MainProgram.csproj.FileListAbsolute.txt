@@ -1,5 +1,0 @@
-/home/twoface/Desktop/ZSK-24-25/pracownia testowania/MainProgram/MainProgram/obj/Debug/net8.0/MainProgram.GeneratedMSBuildEditorConfig.editorconfig
-/home/twoface/Desktop/ZSK-24-25/pracownia testowania/MainProgram/MainProgram/obj/Debug/net8.0/MainProgram.AssemblyInfoInputs.cache
-/home/twoface/Desktop/ZSK-24-25/pracownia testowania/MainProgram/MainProgram/obj/Debug/net8.0/MainProgram.AssemblyInfo.cs
-/home/twoface/Desktop/ZSK-24-25/pracownia testowania/MainProgram/MainProgram/obj/Debug/net8.0/MainProgram.csproj.CoreCompileInputs.cache
-/home/twoface/Desktop/ZSK-24-25/pracownia testowania/MainProgram/MainProgram/obj/Debug/net8.0/MainProgram.sourcelink.json

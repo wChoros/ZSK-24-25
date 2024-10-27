@@ -1,3 +1,0 @@
-/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_3/cmake-build-debug/CMakeFiles/lekcja_3.dir
-/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/twoface/Desktop/ZSK-24-25/informatyka/lekcja_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
