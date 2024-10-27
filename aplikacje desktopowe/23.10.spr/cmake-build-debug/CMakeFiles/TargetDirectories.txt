@@ -1,3 +1,0 @@
-/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/23_10_spr.dir
-/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/twoface/Desktop/ZSK-24-25/aplikacje desktopowe/23.10.spr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
