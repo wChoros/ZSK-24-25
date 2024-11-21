@@ -176,11 +176,16 @@ void NodeField::markPath(const int startX, const int startY, const int endX, con
         currentNode->isCurrent = false;
         currentNode->isClosed = true;
 
-        if(printPath) {
-            system("clear");
+        if (printPath) {
+#ifdef _WIN32
+            system("cls"); // For Windows
+#else
+            system("clear"); // For Unix/Linux
+#endif
             print();
             this_thread::sleep_for(chrono::milliseconds(10));
         }
+
     }
     throw runtime_error("No path found");
 }
