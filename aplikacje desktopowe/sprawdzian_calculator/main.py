@@ -1,7 +1,7 @@
 import sys
 from PySide6.QtWidgets import QApplication
 from PySide6.QtUiTools import QUiLoader
-from PySide6.QtCore import QFile, QObject, QEvent
+from PySide6.QtCore import QFile
 
 
 class CalculatorApp:
@@ -18,6 +18,7 @@ class CalculatorApp:
         self.last_operation = None
         self.result_displayed = False
         self.waiting_for_operand = False
+
 
         # Connect number buttons
         for i in range(10):
@@ -156,16 +157,6 @@ class CalculatorApp:
 
     def update_display(self, text):
         self.window.label_display.setText(text)
-
-class KeyPressFilter(QObject):
-
-    def eventFilter(self, widget, event):
-        if event.type() == QEvent.KeyPress:
-            text = event.text()
-            if event.modifiers():
-                text = event.keyCombination().key().name.decode(encoding="utf-8")
-            widget.label1.setText(text)
-        return False
 
 
 if __name__ == "__main__":
